@@ -1,7 +1,7 @@
 
 
 let knygos = [
-	detektyvai =
+{	detektyvai:[
 	{
 		ISBN:'9786094791550',
 		Leidimo_metai:'2016',
@@ -25,8 +25,10 @@ let knygos = [
 		Leidimo_metai:'2019',
 		Pavadinimas:'Vasarnamis su baseinu',
 		Puslapiu_skaicius:'521 psl.'
+	}
+	]
 	},
-	asmenybes_tobulinimas =
+{	asmenybes_tobulinimas:[
 	{
 		ISBN:'9786098254099',
 		Leidimo_metai:'2019',
@@ -50,8 +52,10 @@ let knygos = [
 		Leidimo_metai:'2012',
 		Pavadinimas:'Emocinės laisvės technika: revoliucinė sistema gyvenimui be streso',
 		Puslapiu_skaicius:'789 psl.'
+	}
+	]
 	},
-	pasakos = 
+{	pasakos:[ 
 	{
 		ISBN:'9789955138501',
 		Leidimo_metai:'2019',
@@ -76,6 +80,7 @@ let knygos = [
 		Pavadinimas:'Vilkas ir septyni ožiukai',
 		Puslapiu_skaicius:'12 psl.'
 	}
-
+	]
+	}
 ];
 console.log(knygos);
