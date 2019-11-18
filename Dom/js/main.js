@@ -7,9 +7,10 @@ const delTask = document.querySelector('button.button2');
 button.addEventListener('click', addElement);
 
 function addElement() {
+    for(let i=0; i>2;i++){
     const task = document.createElement('li');
     task.textContent=addTask.value;
-    tasks.appendChild(task);
+    tasks.appendChild(task);}
 }
 //Elementu deletinimas
 delTask.addEventListener('click', deleteTheTask);
