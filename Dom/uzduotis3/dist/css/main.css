@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  height: 100%;
+}
+.container{
+  background-color: tomato;
+}
+.content{
+  background-color: antiquewhite;
+}
+.generuoti, .sumaisyti{
+ margin: 10px;
+}
+img{
+  margin: 10px;
+}
+#generate{
+  display:block;
+}
+ul{
+	display: inline-block;
+}
+li{
+	list-style-type: none;
+}
