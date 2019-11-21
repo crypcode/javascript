@@ -1,0 +1,20 @@
+/*Base*/
+html{
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding:0;
+}
+#container{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 400px;
+}
+div{
+	width: 25%;
+	height: 100px;
+	background-color: tomato;
+	float: left;
+}

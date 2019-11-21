@@ -27,18 +27,25 @@ function paslepti() {
         hide.style.display = "none";
     }
 }
+
+
 function maisyti() {
-    let naujas = foto
+    let naujas = foto;
     naujas.sort(function () {
-        return 0.3 - Math.random()
+        return 0.5 - Math.random()
     });
-    console.log(naujas)
 
     const select = document.querySelectorAll('img');
-                for(let i=0; i<naujas.length; i++){
-                  select[i].src='img/'+naujas[i]+'.jpg' }}
+    for(let j=0; j<naujas.length; j++){
+        select[j].src='img/'+naujas[j]+'.jpg'
+        console.log(naujas[j])
+    }
+}
+
+
+
 /*function maisyti(){
-    let j,x,i;
+    /let j,x,i;
     for(i=foto.length - 1;i > 0;i--){
         j = Math.floor(Math.random() * (i + 1));
         x = foto[i];
