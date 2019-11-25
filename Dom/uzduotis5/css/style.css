@@ -40,17 +40,17 @@ p.task{
 	left: 15px;
 	top: -5px;
 }
-.low{
+.Zemas{
 	padding: 10px;
 	border-radius: 5px;
 	background-color: #8cdf3c;
 }
-.aukstas{
+.Aukstas{
 	padding: 10px;
 	border-radius: 5px;
 	background-color: #ff4033;
 }
-.normal{
+.Normalus{
 	padding: 10px;
 	border-radius: 5px;
 	background-color: #74afff;
@@ -64,4 +64,11 @@ p.task{
 	color: #f9f9f9;
 	border-radius: 5px;
 	border:1px solid #b21f2d;
+}
+.edit{
+	margin-top: 5px;
+	background-color: green;
+	color: #f9f9f9;
+	border-radius: 5px;
+	border:1px solid green;
 }
